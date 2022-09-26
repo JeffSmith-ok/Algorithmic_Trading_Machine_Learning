@@ -8,7 +8,7 @@ The speed of these transactions gave your firm a competitive advantage early on.
 
 In order to this I will establish a baseline performance. Then, I will adjust the baseline trading algorithm or machine (SVM) learning method to fit the training data and make predictions based on the testing data. I will then create a classification report associated with the `SVC` model predictions.
 
-My evaluation report is that, as you can see from the image below, the strategy in the first image tends to follow the actual returns more closely, particulary in the 2021 period, which inverts the returns, which is not good for a model, and, therefore, I choose the first model.
+My evaluation report is that, as you can see from the image below, the strategy in the first image tends to follow the actual returns more closely, and, particulary, in the 2021 period, the second model inverts the returns, which is not good for a model, and, therefore, I choose the first model.
 
 ## ![Screenshot of the models](image.png) </br>
 
