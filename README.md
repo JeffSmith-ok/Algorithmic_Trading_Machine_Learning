@@ -4,45 +4,41 @@
 
 In this Challenge, I will assume the role of a financial advisor at one of the top five financial advisory firms in the world. The firm has heavily profited by using computer algorithms that can buy and sell faster than human traders.
 
-The speed of these transactions gave your firm a competitive advantage early on. But, people still need to specifically program these systems, which limits their ability to adapt to new data. We are thus planning to improve the existing algorithmic trading systems and maintain the firm’s competitive advantage in the market. To do so, I’ll enhance the existing trading signals with machine learning algorithms that can adapt to new data.
+The speed of these transactions gave your firm a competitive advantage early on. But, people still need to specifically program these systems, which limits their ability to adapt to new data. We are, thus, planning to improve the existing algorithmic trading systems and maintain the firm’s competitive advantage in the market. To do so, I’ll enhance the existing trading signals with machine learning algorithms that can adapt to new data.
 
 In order to this I will establish a baseline performance. Then, I will adjust the baseline trading algorithm or machine (SVM) learning method to fit the training data and make predictions based on the testing data. I will then create a classification report associated with the `SVC` model predictions.
 
-Now, I will provide an evaluation report and support my findings by using the PNG images that I created.
+My evaluation report is that, as you can see from the image below, the strategy in the first image tends to follow the actual returns more closely, particulary in the 2021 period, which inverts the returns, which is not good for a model, and, therefore, I choose the first model.
 
 ## ![Screenshot of the models](image.png) </br>
 
 # Technologies
 
-This was developed with Anaconda, in a development environment running Python 3.7.13, which includes Pandas, and in addition scitkit-leran with Kmeans, PCA, StandardScaler.
+This was developed with Anaconda, in a development environment running Python 3.7.13. If the following libraries do not run, then install them with pip install.
+
+# Imports
+
+import pandas as pd
+import numpy as np
+from pathlib import Path
+import hvplot.pandas
+import matplotlib.pyplot as plt
+from sklearn import svm
+from sklearn.preprocessing import StandardScaler
+from pandas.tseries.offsets import DateOffset
+from sklearn.metrics import classification_report
 
 ---
 
-## Installation Guide
+git clone https://github.com/JeffSmith-ok/Module_14_Challenge
 
-Install Anaconda and Python 3.7.13. </br>
-pip install -U scikit-learn
-Git clone the repo and run it, pursuant to the following clone address
-
-git clone https://github.com/JeffSmith-ok/Module_10_Challenge
-
-cd Module_10_Challenge
+cd Module_14_Challenge
 
 In the terminal type 'Jupyter Lab'
 
 ---
 
-## Usage
-
-The following images present the first notebook read in Jupyter Lab.
-
-## ![Screenshot of the Jupyter Lab](Images/jupyter_lab.jpeg) </br>
-
----
-
-## Contributors
-
-This is the Module 10 Challenge.
+This is the Module 14 Challenge.
 
 My contact information is:
 
