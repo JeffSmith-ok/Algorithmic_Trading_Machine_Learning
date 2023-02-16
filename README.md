@@ -1,4 +1,4 @@
-# Module_14_Challenge
+# Algorithmic Trading Machine Learning
 
 ## Introduction and Conclusions
 
